@@ -1,0 +1,14 @@
+services:
+  api:
+    build: .
+    ports:
+      - "9958:9958"
+    env_file:
+      - .env
+    volumes:
+      - chroma_data:/app/chroma_db
+      - upload_data:/app/backend/storage/uploads
+
+volumes:
+  chroma_data:
+  upload_data:

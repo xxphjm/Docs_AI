@@ -6,7 +6,7 @@ from uuid import uuid4
 
 from fastapi import APIRouter, File, Form, HTTPException, UploadFile
 
-from backend.app.core.settings import settings
+from backend.app.util.setting import settings
 from backend.app.ingest import Ingest
 from backend.app.schemas.document import DocumentUploadResponse
 
