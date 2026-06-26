@@ -18,6 +18,7 @@ dependencies = [
     "langchain-classic>=1.0.7",
     "python-multipart>=0.0.20",
     "uvicorn>=0.34.0",
+    "langchainhub>=0.1.21",
 ]
 
 [tool.uv]
